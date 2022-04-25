@@ -2,6 +2,9 @@ body{
     padding: 0;
     margin:0;
     box-sizing: border-box;
+    overflow-x: hidden;
+    height: 100vh;
+    width: 100%;
 }
 .container{
     min-height: 100vh;
@@ -292,21 +295,20 @@ padding-bottom: 40px;
    
 }
 
-
-.subscription-1{
-    background-color: #f8feff;
-    /* min-height: 100vh; */
-    margin-top: -120px;
-    padding-top: 50px;
-}
 .subscribe-1 h3{
     padding: 10px;
+}
+.footer{
+    margin-top: 100px;
+    height: 400px;
+    width: 100%;
+    margin-left: 80px;
 }
 .footer-content{
     display:flex;
 }
 .footer-content div{
-margin: 50px;
+margin: 20px 30px 0 25px;
 }
 .footer-content ul li{
     list-style: none;
@@ -329,16 +331,20 @@ margin: 50px;
     width: 20px;
 }
 .icons i{
-padding: 8px;
-
+padding: 8px;  
+margin-top: -25px;                                                                                                            
+   
+}
+.icons{
+    margin-top: -25px;
 }
 .columns i{
-backgroundcolor: rgb(26,160,171);
+background-color: rgb(26,160,171);
 }
 .col-1 i{
     color: rgb(26,160,171) ;
     font-size: 30px;
-    padding: 20px;
+    padding: 10px;
 }
 .quote-left i{
     font-size: 30px;
